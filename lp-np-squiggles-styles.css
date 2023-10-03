@@ -480,10 +480,10 @@ star:after {
   text-transform: uppercase;
   padding: 14px 0;
   flex: 1;
-  background-color: #F9C472;
+  background-color: #780131;
 }
 #fixed-tabs a:nth-of-type(odd) {
-  background-color: #4CBCF3;
+  background-color: #02306D;
 }
 #fixed-tabs a::nth-of-type(even) {
   background-color: #202426;
@@ -526,7 +526,7 @@ html {
 body {
   overflow-x: hidden;
   position: relative;
-  background: #fff;
+  background: #F7F1E4;
   text-align: center;
   color: #000;
   font: 400 18px/26px "Raleway", sans-serif;
@@ -534,22 +534,22 @@ body {
 
 p {
   color: #000;
-  font: 400 20px/1.6 "Roboto", sans-serif;
+  font: 400 20px/1.6 "Mukta Mahee", sans-serif;
 }
 
 a {
   display: inline-block;
   text-decoration: none;
   cursor: pointer;
-  color: #4CBCF3;
+  color: #02306D;
 }
 
 a:hover {
-  color: #505050;
+  color: #F6B6B4;
 }
 
 h1, h2 h3, h4, h5, h6 {
-  font-family: "Amatic SC", cursive;
+  font-family: "Baloo 2", cursive;
   text-align: center;
 }
 
@@ -561,13 +561,13 @@ h1 {
 }
 
 h2 {
-  font: 700 60px/1.1 "Amatic SC", cursive, sans-serif;
-  color: #505050;
+  font: 700 60px/1.1 "Baloo 2", cursive, sans-serif;
+  color: #02306D;
   margin: 10px 0 40px;
 }
 
 h3, .h3 {
-  font: 300 24px/1 "Amatic SC", cursive;
+  font: 300 24px/1 "Baloo 2", cursive;
   color: #0F0D0D;
   margin: 15px auto 10px;
   letter-spacing: 0.75px;
@@ -615,9 +615,9 @@ main ul li:before {
   cursor: pointer;
   padding: 15px 20px;
   text-align: center;
-  background-color: #4CBCF3;
+  background-color: #02306D;
   min-width: 300px;
-  font: 700 18px/1.1 "Roboto", sans-serif;
+  font: 700 18px/1.1 "Mukta Mahee", sans-serif;
   letter-spacing: 1px;
   border-radius: 30px;
 }
@@ -628,15 +628,15 @@ main ul li:before {
   letter-spacing: 2.95px;
 }
 .btn:hover, .btn-alt:hover {
-  background-color: #BCEBB5;
-  color: #000;
+  background-color: #780131;
+  color: #fff;
 }
 
 header {
   position: relative;
   padding: 0;
   z-index: 100;
-  background-color: #fff;
+  background-color: #FAF6EE;
 }
 header address {
   padding: 0 8px;
@@ -647,16 +647,16 @@ header .address {
   font-size: 18px;
   line-height: 1.25;
   text-align: left;
-  font-family: "Roboto", sans-serif;
+  font-family: "Mukta Mahee", sans-serif;
   font-weight: 400;
   letter-spacing: 0.55px;
   margin-top: 10px;
 }
 header .address:hover {
-  color: #4CBCF3;
+  color: #780131;
 }
 header .address i:before {
-  color: #4CBCF3;
+  color: #02306D;
   font-size: 22px;
   margin-left: -10px;
   margin-right: 15px;
@@ -674,12 +674,13 @@ header #nav .btn {
   text-transform: none;
   align-items: center;
   justify-content: center;
+  text-transform: uppercase;
   padding: 10px;
-  font-size: 21px;
+  font-size: 20px;
   min-width: 375px;
   display: flex;
   color: #fff;
-  font-weight: 400;
+  font-weight: 700;
   border-radius: 30px;
 }
 header #nav .btn span {
@@ -694,11 +695,11 @@ header #nav .btn i:before {
   margin-right: 10px;
 }
 header #nav .btn:hover {
-  background-color: #BCEBB5;
-  color: #000;
+  background-color: #780131;
+  color: #fff;
 }
 header #nav .phone:hover {
-  color: #4CBCF3;
+  color: #780131;
 }
 header #nav #mobile-btns {
   width: 100%;
@@ -732,19 +733,19 @@ header #nav #mobile-btns .phone span, header #nav #mobile-btns .btn span {
   width: 100%;
 }
 header #nav #mobile-btns .phone {
-  background-color: #BCEBB5;
-  color: #000;
-  font-size: 20px;
+  background-color: #780131;
+  color: #fff;
+  font-size: 21px;
   line-height: 1.3;
-  font-family: "Roboto", sans-serif;
+  font-family: "Mukta Mahee", sans-serif;
 }
 header #nav #mobile-btns .phone span {
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 700;
   letter-spacing: 1px;
-  color: #000;
-  font-family: "Roboto", sans-serif;
+  color: #fff;
+  font-family: "Mukta Mahee", sans-serif;
 }
 header #nav #mobile-btns #mobile-special .container {
   margin: 10px 0;
@@ -753,7 +754,7 @@ header #nav #mobile-btns #mobile-special .container {
   padding: 5px;
 }
 header #nav #mobile-btns #mobile-special .container h4 {
-  color: #F9C472;
+  color: #780131;
   font-size: 22px;
   margin: 0;
 }
@@ -782,7 +783,7 @@ header #nav #mobile-btns #mobile-special .container small {
 
 .phone {
   display: flex;
-  font: 700 41px/30px "Raleway", sans-serif;
+  font: 700 41px/30px "Mukta Mahee", sans-serif;
   color: #000;
 }
 .phone span {
@@ -791,7 +792,7 @@ header #nav #mobile-btns #mobile-special .container small {
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
-  font-family: "Amatic SC", cursive;
+  font-family: "Baloo 2", cursive;
 }
 .phone:hover {
   color: #000;
@@ -801,14 +802,14 @@ header #nav #mobile-btns #mobile-special .container small {
   align-items: center;
 }
 .phone i:before {
-  color: #4CBCF3;
+  color: #02306D;
   font-size: 22px;
   margin-left: 0px;
   margin-right: 15px;
 }
 
 #safe-bar {
-  background-color: #F9C472;
+  background-color: #F6B6B4;
   font-weight: 400;
   flex-wrap: wrap;
   display: flex;
@@ -823,7 +824,7 @@ header #nav #mobile-btns #mobile-special .container small {
   margin: 0 30px;
 }
 #safe-bar span {
-  font-family: "Roboto", sans-serif;
+  font-family: "Mukta Mahee", sans-serif;
 }
 
 .pho {
@@ -847,7 +848,7 @@ header #nav #mobile-btns #mobile-special .container small {
   align-items: center;
 }
 .pho i:before {
-  color: #4CBCF3;
+  color: #02306D;
   font-size: 22px;
   margin-left: 0px;
   margin-right: 15px;
@@ -916,7 +917,7 @@ header #nav #mobile-btns #mobile-special .container small {
   line-height: 1.1;
 }
 .covid:hover {
-  background-color: #505050;
+  background-color: #F6B6B4;
   color: #fff;
 }
 
@@ -926,7 +927,7 @@ header #nav #mobile-btns #mobile-special .container small {
   height: 600px;
   padding: 0;
   justify-content: space-around;
-  background-image: url(assets/images/lp-np-banner-bkg.jpg);
+  background-image: url(assets/images/lp-np-squiggles-banner-bkg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -961,7 +962,7 @@ header #nav #mobile-btns #mobile-special .container small {
   letter-spacing: 2px;
 }
 #banner .flex-ed figure figcaption a:hover {
-  color: #4CBCF3;
+  color: #02306D;
 }
 #banner .flex-ed figure img {
   width: 100%;
@@ -977,45 +978,45 @@ header #nav #mobile-btns #mobile-special .container small {
 }
 #banner .flex-ed article h1 {
   line-height: 1.15;
-  font-size: 96px;
+  font-size: 76px;
   align-items: center;
   justify-content: center;
-  color: #505050;
+  color: #02306D;
   display: flex;
   flex-wrap: wrap;
-  font-family: "Amatic SC", cursive;
+  font-family: "Baloo 2", cursive;
 }
 #banner .flex-ed article h1 span {
-  margin-left: 15px;
-  color: #F9C472;
+  margin-right: 15px;
+  color: #780131;
 }
 #banner .flex-ed article h2 {
-  font-weight: 400;
-  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-family: "Baloo 2", cursive;
   padding-bottom: 15px;
-  font-size: 32px;
+  font-size: 38px;
   display: flex;
   flex-wrap: wrap;
   position: relative;
   justify-content: center;
   margin-top: 0;
-  color: #000;
+  color: #02306D;
 }
 #banner .flex-ed article h2:after {
   content: "";
   width: 60px;
   height: 4px;
-  background-color: #F9C472;
+  background-color: #02306D;
   position: absolute;
   bottom: 0;
 }
 #banner .flex-ed article ul li {
   font-size: 31px;
   font-weight: 400;
-  font-family: "Roboto", sans-serif;
+  font-family: "Mukta Mahee", sans-serif;
 }
 #banner .flex-ed article ul li:before {
-  color: #F9C472;
+  color: #780131;
   left: -18px;
 }
 #banner .flex-ed article > div {
@@ -1050,7 +1051,7 @@ header #nav #mobile-btns #mobile-special .container small {
   left: 20%;
   transform: translateX(-20%);
   bottom: 20px;
-  color: #4CBCF3;
+  color: #02306D;
   padding: 8px 10px;
   width: 100%;
   line-height: 1.3;
@@ -1065,7 +1066,7 @@ header #nav #mobile-btns #mobile-special .container small {
   font-weight: 500;
 }
 .caption a:hover {
-  color: #505050;
+  color: #F6B6B4;
 }
 .caption span {
   margin: 0 10px;
@@ -1075,12 +1076,15 @@ header #nav #mobile-btns #mobile-special .container small {
   left: auto;
   right: 20px;
 }
+#friendly figure figcaption a:hover {
+  color: #780131;
+}
 #friendly article h2 span {
-  color: #F9C472;
+  color: #780131;
 }
 
 #reviews {
-  background-color: #BCEBB5;
+  background-color: #F6B6B4;
   padding: 100px 0 0;
   position: relative;
 }
@@ -1088,7 +1092,7 @@ header #nav #mobile-btns #mobile-special .container small {
   content: "";
   position: absolute;
   top: -42px;
-  background-image: url(assets/images/lp-np-green-squiggle-top.png);
+  background-image: url(assets/images/lp-np-pink-squiggle-top.png);
   background-size: contain;
   background-repeat: no-repeat;
   height: 86px;
@@ -1098,7 +1102,7 @@ header #nav #mobile-btns #mobile-special .container small {
 }
 #reviews #review-container {
   position: relative;
-  background-color: #ACE4FF;
+  background-color: #C3E1DB;
   box-shadow: 1.6px 2.5px 7px rgba(7, 8, 8, 0.35);
   max-width: 1200px;
   color: #000;
@@ -1126,7 +1130,7 @@ header #nav #mobile-btns #mobile-special .container small {
   padding: 5px 25px;
 }
 #reviews #review-container #google p {
-  color: #4CBCF3;
+  color: #02306D;
   line-height: 37px;
   display: block;
   margin-top: 25px;
@@ -1148,7 +1152,7 @@ header #nav #mobile-btns #mobile-special .container small {
   margin: auto;
 }
 #reviews #review-container .comment p {
-  font: 400 32px/46px "Roboto", sans-serif;
+  font: 400 37px/43px "Mukta Mahee", sans-serif;
   margin-top: 0;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -1164,7 +1168,7 @@ header #nav #mobile-btns #mobile-special .container small {
 }
 
 #stop {
-  background: #BCEBB5;
+  background: #F6B6B4;
   padding: 30px 10px;
   position: relative;
 }
@@ -1172,7 +1176,7 @@ header #nav #mobile-btns #mobile-special .container small {
   content: "";
   position: absolute;
   bottom: -42px;
-  background-image: url(assets/images/lp-np-green-squiggle-bottom.png);
+  background-image: url(assets/images/lp-np-pink-squiggle-bottom.png);
   background-size: contain;
   height: 49px;
   width: 100%;
@@ -1183,15 +1187,27 @@ header #nav #mobile-btns #mobile-special .container small {
   bottom: -38px;
   background-color: #fff;
 }
+#stop article {
+  flex: 0 1 650px;
+}
+#stop article h2 {
+  margin-bottom: 20px;
+}
 #stop article h2 span {
-  color: #4CBCF3;
+  color: #fff;
 }
 #stop article .btn:hover {
-  background-color: #F9C472;
+  background-color: #780131;
 }
 
+#flexible {
+  margin: 110px auto;
+}
+#flexible article {
+  flex: 0 1 580px;
+}
 #flexible article h2 span {
-  color: #F9C472;
+  color: #780131;
 }
 
 .flex-case {
@@ -1219,7 +1235,7 @@ header #nav #mobile-btns #mobile-special .container small {
   justify-content: space-around;
 }
 .services .flex-ed article {
-  background-color: #F9C472;
+  background-color: #780131;
 }
 .services .flex-ed > * {
   width: 100%;
@@ -1292,7 +1308,7 @@ header #nav #mobile-btns #mobile-special .container small {
 
 .services h1 b, #lp-slider b {
   color: #252b30;
-  font-family: "Amatic SC", cursive;
+  font-family: "Baloo 2", cursive;
   font-size: 45px;
   letter-spacing: -0.02em;
 }
@@ -1367,7 +1383,7 @@ header #nav #mobile-btns #mobile-special .container small {
   border-color: #fff;
 }
 #options .portrait:hover:after {
-  border-color: #505050;
+  border-color: #F6B6B4;
 }
 
 #secondary {
@@ -1396,7 +1412,7 @@ header #nav #mobile-btns #mobile-special .container small {
 }
 #secondary .icon-map-marker {
   font-size: 30px;
-  color: #4CBCF3;
+  color: #02306D;
 }
 
 .smiles {
@@ -1438,8 +1454,8 @@ header #nav #mobile-btns #mobile-special .container small {
 }
 
 footer {
-  padding-top: 50px;
-  background-color: #ACE4FF;
+  padding-top: 80px;
+  background-color: #C3E1DB;
   position: relative;
 }
 footer:before {
@@ -1478,18 +1494,18 @@ footer .flex-ed article {
 }
 footer .flex-ed article h2, footer .flex-ed article h3 {
   font-weight: 600;
-  font-family: "Amatic SC", cursive;
+  font-family: "Baloo 2", cursive;
   font-size: 45px;
 }
 footer .flex-ed article h2 {
-  color: #505050;
+  color: #02306D;
   margin-bottom: 40px;
   margin-top: 30px;
 }
 footer .flex-ed article h3 {
   font-weight: 600;
-  color: #505050;
-  font-family: "Amatic SC", cursive;
+  color: #02306D;
+  font-family: "Baloo 2", cursive;
 }
 footer .flex-ed #services {
   padding-top: 0;
@@ -1497,16 +1513,20 @@ footer .flex-ed #services {
   margin-top: auto;
 }
 footer .flex-ed #services h3 {
-  color: #000;
+  color: #02306D;
 }
 footer .flex-ed #services h3:last-child {
   font-size: 18px;
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
+  color: #000;
 }
 footer .flex-ed #services h3:last-child span {
   font-size: 30px;
   text-transform: none;
+}
+footer .flex-ed #services #call .phone {
+  font-family: "Mukta Mahee", sans-serif;
 }
 footer .flex-ed #services .logo {
   margin: 20px auto;
@@ -1519,7 +1539,7 @@ footer .flex-ed #services address .phy {
   color: #fff;
 }
 footer .flex-ed #services address .phy:hover {
-  color: #4CBCF3;
+  color: #02306D;
 }
 footer .flex-ed #services #call span {
   display: block;
@@ -1531,14 +1551,15 @@ footer .flex-ed #services #call span {
 footer .flex-ed #services #call .phone {
   font-size: 30px;
   font-weight: 700;
-  color: #4CBCF3;
+  color: #02306D;
 }
 footer .flex-ed #services #call .phone:hover {
   color: #000;
 }
 footer .flex-ed #contact {
-  padding: 0;
+  padding: 0 0 20px;
   flex: 0 1 428px;
+  margin: 10px 10px 0;
 }
 footer .flex-ed #contact iframe {
   border-radius: 10px;
@@ -1548,7 +1569,7 @@ footer .flex-ed #contact .address {
   color: #000;
 }
 footer .flex-ed #contact .address:hover {
-  color: #4CBCF3;
+  color: #02306D;
 }
 footer .flex-ed #footer-form {
   height: 428px;
@@ -1564,7 +1585,7 @@ footer .flex-ed #footer-form .simple .btn {
   border-radius: 0;
 }
 footer .flex-ed #footer-form .simple .btn:hover {
-  background-color: #BCEBB5;
+  background-color: #C3E1DB;
   color: #000;
 }
 footer .flex-ed #footer-form .simple textarea {
@@ -1580,7 +1601,7 @@ footer .flex-ed #footer-form .simple textarea {
   margin: 7px auto;
   list-style: none;
   text-align: center;
-  background-color: #4CBCF3;
+  background-color: #02306D;
 }
 #services li a {
   display: block;
@@ -1593,7 +1614,7 @@ footer .flex-ed #footer-form .simple textarea {
   padding: 25px 20px 23px;
 }
 #services li:hover {
-  background-color: #505050;
+  background-color: #F6B6B4;
 }
 #services li:hover a {
   color: #fff;
@@ -1625,7 +1646,7 @@ footer .flex-ed #footer-form .simple textarea {
 }
 .simple input:focus, .simple textarea:focus, .simple select:focus {
   background-color: #f7f4f4;
-  box-shadow: inset 0 3px 0 #505050;
+  box-shadow: inset 0 3px 0 #F6B6B4;
 }
 
 ::-moz-placeholder {
@@ -1640,17 +1661,17 @@ footer .flex-ed #footer-form .simple textarea {
   font-size: 18px;
   color: #000;
   text-align: center;
-  padding: 30px 10px;
+  padding: 55px 10px;
   letter-spacing: -0.5px;
   line-height: 1.4;
   opacity: 0.7;
 }
 .copy a {
   margin: auto;
-  color: #F9C472;
+  color: #780131;
 }
 .copy a:hover {
-  color: #505050;
+  color: #02306D;
 }
 .copy span:not(:first-of-type) {
   padding: 0 5px;
@@ -1659,14 +1680,14 @@ footer .flex-ed #footer-form .simple textarea {
 #landing-page-form {
   position: relative;
   max-width: 850px;
-  padding: 0 10px 10px;
+  padding: 0 10px 80px;
   margin: 20px auto;
 }
 #landing-page-form h1 {
   font-size: 50px;
   font-weight: 700;
   margin-bottom: 30px;
-  color: #505050;
+  color: #F6B6B4;
   text-align: center;
   padding-top: 20px;
   line-height: 1.2;
@@ -1785,6 +1806,9 @@ hr {
   header #nav > .btn {
     display: none;
   }
+  #stop article h2 {
+    font-size: 54px;
+  }
   hr {
     display: block;
     max-width: 95%;
@@ -1823,7 +1847,7 @@ hr {
   }
   #banner {
     background: none;
-    background-color: #ACE4FF;
+    background-color: #C3E1DB;
     height: auto;
   }
   #banner .flex-ed figure {
@@ -1977,6 +2001,7 @@ hr {
   }
   .copy {
     font-size: 16px;
+    padding: 30px 10px;
   }
   #services {
     order: -1;
@@ -2042,7 +2067,7 @@ hr {
   header .header-info .phone {
     font-size: 21px;
     padding: 10px;
-    background-color: #F9C472;
+    background-color: #780131;
     color: #fff;
     flex: 0 1 50%;
   }
@@ -2117,7 +2142,7 @@ hr {
   }
   #flexible {
     margin-top: 90px;
-    padding: 10px 20px 60px;
+    padding: 10px 20px 30px;
   }
   #flexible article {
     padding: 0;
@@ -2132,7 +2157,7 @@ hr {
 }
 @media (max-width: 590px) {
   #nav .logo {
-    margin: 10px 0 0;
+    margin: 10px;
     padding: 0;
     max-width: 90%;
   }
@@ -2326,4 +2351,4 @@ hr {
     display: table;
     margin: 0 auto 5px;
   }
-}/*# sourceMappingURL=lp-cosmetic-styles.css.map */
+}/*# sourceMappingURL=lp-np-squiggles-styles.css.map */
